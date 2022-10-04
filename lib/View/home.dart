@@ -32,8 +32,8 @@ class _PolylinePageState extends State<PolylinePage> {
 
     final markers = <Marker>[
       Marker(
-        width: 80,
-        height: 80,
+        width: 70,
+        height: 70,
         point: LatLng(30.600093873550072, 36.5625),
         builder: (ctx) => Icon(
           Icons.place,
